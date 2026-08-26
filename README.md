@@ -30,7 +30,8 @@ Permanent object storage is often unnecessary for these exchanges. Traditional f
 
 PreFlight Temporary File Relay is designed to make this handoff a small, bounded API operation.
 
-Planned Workflow
+## Planned Workflow
+
 A[Request a file slot] --> B[Complete x402 payment] 
 B --> C[Upload directly to private storage] 
 C --> D[Relay verifies the object] 
